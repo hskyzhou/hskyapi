@@ -22,8 +22,17 @@ class CatagoryController extends Controller
 
 
     public function SecondCata(){
+        $data = [
+            '语文二级分类1',
+            '语文二级分类2',
+            '语文二级分类3',
+            '语文二级分类4',
+            '语文二级分类5',
+        ];
+        
         $parent = request('parent', '');
-        if(empty($parent)){
+
+        if(!empty($parent)){
             switch($parent){
                 case "语文":
                     $data = [
