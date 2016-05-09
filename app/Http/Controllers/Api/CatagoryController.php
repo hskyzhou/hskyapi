@@ -19,4 +19,16 @@ class CatagoryController extends Controller
         ];
         return response()->json($data);
     }
+
+
+    public function SecondCata(){
+        $data = [
+            '二级分类1',
+            '二级分类2',
+            '二级分类3',
+            '二级分类4',
+            '二级分类5',
+        ];
+        return response()->json($data);
+    }
 }
