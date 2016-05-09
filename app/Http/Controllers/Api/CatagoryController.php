@@ -428,5 +428,7 @@ class CatagoryController extends Controller
                     break;
             }
         }
+
+        return response()->json($data);
     }
 }
