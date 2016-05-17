@@ -5,5 +5,5 @@
         Route::get('secondcata', 'CatagoryController@SecondCata');
         Route::get('projectlist', 'CatagoryController@projectList');
 
-        // Route::get('login', '')
+        Route::get('login', 'LoginController@login');
     });
