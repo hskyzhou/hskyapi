@@ -13,7 +13,7 @@ class LoginController extends Controller
         $username = request('username');
         $password = request('password');
 
-        if($username = 'admin' && $password = 'admin'){
+        if($username == 'admin' && $password == 'admin'){
             $data = [
                 'result' => 1,
                 'message' => '登录成功'
