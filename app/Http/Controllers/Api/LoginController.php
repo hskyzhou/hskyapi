@@ -10,8 +10,8 @@ use App\Http\Controllers\Controller;
 class LoginController extends Controller
 {
     public function login(){
-        $username = reuqest('username');
-        $password = reuqest('password');
+        $username = request('username');
+        $password = request('password');
 
         if($username = 'admin' && $password = 'admin'){
             $data = [
