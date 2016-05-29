@@ -51,7 +51,7 @@ class LoginController extends Controller
             'result' => 1,
             'cart' => [
                 [
-                    'catagory_name' => '栏目1',
+                    'category_name' => '栏目1',
                     'shops' => [
                         [
                             'shop_name' => '产品1',
@@ -70,7 +70,7 @@ class LoginController extends Controller
                     ]
                 ],
                 [
-                    'catagory_name' => '栏目2',
+                    'category_name' => '栏目2',
                     'shops' => [
                         [
                             'shop_name' => '产品3',
