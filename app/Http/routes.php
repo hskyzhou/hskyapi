@@ -6,4 +6,7 @@
         Route::get('projectlist', 'CatagoryController@projectList');
 
         Route::get('login', 'LoginController@login');
+        Route::get('forgetpass', 'LoginController@forgetpass');
+
+
     });

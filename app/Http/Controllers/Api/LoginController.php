@@ -27,4 +27,13 @@ class LoginController extends Controller
 
         return response()->json($data);
     }
+
+    public function forgetpass(){
+        $data = [
+            'result' => 1,
+            'message' => '登录成功'
+        ];
+        
+        return response()->json($data);
+    }
 }
