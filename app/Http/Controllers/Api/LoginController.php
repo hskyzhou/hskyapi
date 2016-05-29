@@ -49,6 +49,8 @@ class LoginController extends Controller
     public function cart(){
         $data = [
             'result' => 1,
+            'category_total' => 2,
+            'total_price' => 1000,
             'cart' => [
                 [
                     'category_name' => '栏目1',
