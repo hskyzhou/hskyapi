@@ -58,12 +58,14 @@ class LoginController extends Controller
                             'shop_desc' => '产品说明1',
                             'shop_price' => '20元/盒',
                             'shop_standard' => '每盒300g',
+                            'shop_number' => 1,
                         ],
                         [
                             'shop_name' => '产品1',
                             'shop_desc' => '产品说明1',
                             'shop_price' => '20元/盒',
                             'shop_standard' => '每盒300g',
+                            'shop_number' => 2,
                         ]
                     ]
                 ],
@@ -75,12 +77,14 @@ class LoginController extends Controller
                             'shop_desc' => '产品说明1',
                             'shop_price' => '20元/盒',
                             'shop_standard' => '每盒300g',
+                            'shop_number' => 3,
                         ],
                         [
                             'shop_name' => '产品4',
                             'shop_desc' => '产品说明1',
                             'shop_price' => '20元/盒',
                             'shop_standard' => '每盒300g',
+                            'shop_number' => 4,
                         ]
                     ]
                 ]

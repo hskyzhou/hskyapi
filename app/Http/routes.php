@@ -10,6 +10,4 @@
         Route::get('register', 'LoginController@register');
         
         Route::get('cart', 'LoginController@cart');
-
-
     });
