@@ -45,4 +45,48 @@ class LoginController extends Controller
 
         return response()->json($data);   
     }
+
+    public function cart(){
+        $data = [
+            'result' => 1,
+            'cart' => [
+                [
+                    'catagory_name' => '栏目1',
+                    'shops' => [
+                        [
+                            'shop_name' => '产品1',
+                            'shop_desc' => '产品说明1',
+                            'shop_price' => '20元/盒',
+                            'shop_standard' => '每盒300g',
+                        ],
+                        [
+                            'shop_name' => '产品1',
+                            'shop_desc' => '产品说明1',
+                            'shop_price' => '20元/盒',
+                            'shop_standard' => '每盒300g',
+                        ]
+                    ]
+                ],
+                [
+                    'catagory_name' => '栏目2',
+                    'shops' => [
+                        [
+                            'shop_name' => '产品3',
+                            'shop_desc' => '产品说明1',
+                            'shop_price' => '20元/盒',
+                            'shop_standard' => '每盒300g',
+                        ],
+                        [
+                            'shop_name' => '产品4',
+                            'shop_desc' => '产品说明1',
+                            'shop_price' => '20元/盒',
+                            'shop_standard' => '每盒300g',
+                        ]
+                    ]
+                ]
+            ]
+        ];
+
+        return response()->json($data);   
+    }
 }
