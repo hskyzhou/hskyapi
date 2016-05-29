@@ -7,6 +7,7 @@
 
         Route::get('login', 'LoginController@login');
         Route::get('forgetpass', 'LoginController@forgetpass');
+        Route::get('register', 'LoginController@register');
 
 
     });
