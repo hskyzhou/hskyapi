@@ -31,9 +31,18 @@ class LoginController extends Controller
     public function forgetpass(){
         $data = [
             'result' => 1,
-            'message' => '登录成功'
+            'message' => '找回密码成功'
         ];
-        
+
         return response()->json($data);
+    }
+
+    public function register(){
+        $data = [
+            'result' => 1,
+            'message' => '注册成功'
+        ];
+
+        return response()->json($data);   
     }
 }
