@@ -11,11 +11,26 @@ class CatagoryController extends Controller
 {
     public function FirstCata(){
         $data = [
-            '语文',
-            '数学',
-            '英语',
-            '化学',
-            '物理',
+            [
+                'ID' => 1,
+                'classifyName' => '语文',
+            ],
+            [
+                'ID' => 2,
+                'classifyName' => '数学',
+            ],
+            [
+                'ID' => 3,
+                'classifyName' => '英语',
+            ],
+            [
+                'ID' => 4,
+                'classifyName' => '化学',
+            ],
+            [
+                'ID' => 5,
+                'classifyName' => '物理',
+            ]
         ];
         return response()->json($data);
     }
@@ -34,7 +49,7 @@ class CatagoryController extends Controller
 
         if(!empty($parent)){
             switch($parent){
-                case "语文":
+                case "1":
                     $data = [
                         '语文二级分类1',
                         '语文二级分类2',
@@ -43,7 +58,7 @@ class CatagoryController extends Controller
                         '语文二级分类5',
                     ];
                     break;
-                case "数学":
+                case "2":
                     $data = [
                         '数学二级分类1',
                         '数学二级分类2',
@@ -52,7 +67,7 @@ class CatagoryController extends Controller
                         '数学二级分类5',
                     ];
                     break;
-                case "英语":
+                case "3":
                     $data = [
                         '英语二级分类1',
                         '英语二级分类2',
@@ -61,7 +76,7 @@ class CatagoryController extends Controller
                         '英语二级分类5',
                     ];
                     break;
-                case "化学":
+                case "4":
                     $data = [
                         '化学二级分类1',
                         '化学二级分类2',
@@ -70,7 +85,7 @@ class CatagoryController extends Controller
                         '化学二级分类5',
                     ];
                     break;
-                case "物理":
+                case "5":
                     $data = [
                         '物理二级分类1',
                         '物理二级分类2',
