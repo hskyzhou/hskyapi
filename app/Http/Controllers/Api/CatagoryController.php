@@ -32,7 +32,7 @@ class CatagoryController extends Controller
                     'ID' => '5',
                     'classifyName' => '物理',
                 ]
-            ];
+            ]
         ];
         return response()->json($data);
     }
