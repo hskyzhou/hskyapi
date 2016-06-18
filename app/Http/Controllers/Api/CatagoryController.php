@@ -12,23 +12,23 @@ class CatagoryController extends Controller
     public function FirstCata(){
         $data = [
             [
-                'ID' => 1,
+                'ID' => '1',
                 'classifyName' => '语文',
             ],
             [
-                'ID' => 2,
+                'ID' => '2',
                 'classifyName' => '数学',
             ],
             [
-                'ID' => 3,
+                'ID' => '3',
                 'classifyName' => '英语',
             ],
             [
-                'ID' => 4,
+                'ID' => '4',
                 'classifyName' => '化学',
             ],
             [
-                'ID' => 5,
+                'ID' => '5',
                 'classifyName' => '物理',
             ]
         ];
